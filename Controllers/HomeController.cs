@@ -29,7 +29,7 @@ namespace PruebaGit.Controllers
 
         public ActionResult GUIT()
         {
-            ViewBag.Message = "PROBANDO GUIT.";
+            ViewBag.Message = "PROBANDO GUITadasdadsads.";
 
             return View("PRUEBAGIT");
         }
