@@ -26,5 +26,12 @@ namespace PruebaGit.Controllers
 
             return View();
         }
+
+        public ActionResult GUIT()
+        {
+            ViewBag.Message = "PROBANDO GUIT.";
+
+            return View("PRUEBAGIT");
+        }
     }
 }
